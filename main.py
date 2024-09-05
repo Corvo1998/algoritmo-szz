@@ -23,7 +23,7 @@ def get_bug_introducing_commits(repo_path, bug_reports):
 repo_path = '/caminho/para/repo'  # Substitua pelo caminho para o seu repositório
 bug_reports = []
 
-print(A
+print(B
 
 bug_introducing_commits = get_bug_introducing_commits(repo_path, bug_reports)
 print("Bug-introducing commits:")
