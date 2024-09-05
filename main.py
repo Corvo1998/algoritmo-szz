@@ -7,7 +7,7 @@ def get_bug_introducing_commits(repo_path, bug_reports):
     for bug_report in bug_reports:
         bug_id = bug_report
         bug_file = bug_report['']
-        bug_line = bug_report['
+        bug_line = bug_report['']
     
         # Obter os commits que modificaram o arquivo relevante para o bug
         blame_result = repo.blame('HEA', bug_file, L=bug_line)
@@ -22,6 +22,8 @@ def get_bug_introducing_commits(repo_path, bug_reports):
 # Exemplo de uso
 repo_path = '/caminho/para/repo'  # Substitua pelo caminho para o seu repositório
 bug_reports = []
+
+print()
 
 bug_introducing_commits = get_bug_introducing_commits(repo_path, bug_reports)
 print("Bug-introducing commits:")
