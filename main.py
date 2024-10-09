@@ -28,7 +28,7 @@ print("TESTE")
 bug_introducing_commits = get_bug_introducing_commits(repo_path, bug_reports)
 print("Bug-introducing commits:")
 for commit_sha in bug_introducing_commits:
-    print(commit_sha)
+    print(commit_
 
 print ("Funcionou")
-print()
+pr
