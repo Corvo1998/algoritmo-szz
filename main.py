@@ -31,4 +31,6 @@ for commit_sha in bug_introducing_commits:
     print(commit_sha)
 
 print ("Funcionou")
-print()
+print("Teste 1")
+
+console.log()
