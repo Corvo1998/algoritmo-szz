@@ -21,7 +21,7 @@ def get_bug_introducing_commits(repo_path, bug_reports):
 
 # Exemplo de uso
 repo_path = '/caminho/para/repo'  # Substitua pelo caminho para o seu repositório
-bug_reports = 
+bug_reports = []
 
 print("TESTE")
 
@@ -32,5 +32,3 @@ for commit_sha in bug_introducing_commits:
 
 print ("Funcionou")
 print("Teste 1")
-
-console.log()
