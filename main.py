@@ -30,7 +30,6 @@ print("Bug-introducing commits:")
 for commit_sha in bug_introducing_commits:
     print(commit_sha)
 
-print ("Funcionou")
-print("Teste 1")
+print ("Funcionou"te 1")
 
-console.log()
+con
